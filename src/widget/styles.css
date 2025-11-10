@@ -1,0 +1,8 @@
+/* Optional: smooth scroll + shadow */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgba(99, 102, 241, 0.4);
+  border-radius: 6px;
+}
