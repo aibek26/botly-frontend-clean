@@ -65,6 +65,16 @@ export default function App() {
               <Route path="builder" element={<Builder />} />
             </Route>
 
+            {/* ---------- 🧩 Публичный демо-доступ для инвестора ---------- */}
+            <Route
+              path="/demo"
+              element={
+                <DashboardLayout>
+                  <Dashboard />
+                </DashboardLayout>
+              }
+            />
+
             {/* ---------- Redirect на главную ---------- */}
             <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
